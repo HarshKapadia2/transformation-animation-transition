@@ -40,6 +40,11 @@ body
 	transform: scaleX(2);
 }
 
+#animation
+{
+	height: 65vh;
+}
+
 #lr-animation
 {
 	animation: lr_move 5s linear infinite;
@@ -49,17 +54,57 @@ body
 {
 	0%
 	{
-		transform: translateX(0);
+		transform: translate(0, 0);
+	}
+
+	10%
+	{
+		transform: translate(0, 40vh);
+	}
+
+	20%
+	{
+		transform: translate(0, 20vh);
 	}
 	
+	30%
+	{
+		transform: translate(10vw, 20vh);
+	}
+	
+	40%
+	{
+		transform: translate(10vw, 0);
+	}
+
 	50%
 	{
-		transform: translateX(50vw);
+		transform: translate(10vw, 40vh);
 	}
-	
+
+	60%
+	{
+		transform: translate(10vw, 0);
+	}
+
+	70%
+	{
+		transform: translate(10vw, 20vh);
+	}
+
+	80%
+	{
+		transform: translate(0, 20vh);
+	}
+
+	90%
+	{
+		transform: translate(0, 40vh);
+	}
+
 	100%
 	{
-		transform: translateX(0);
+		transform: translate(0, 0);
 	}
 }
 
