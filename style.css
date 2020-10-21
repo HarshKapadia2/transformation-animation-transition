@@ -11,6 +11,11 @@ body
 	color: #fafafa;
 }
 
+#transformation, #animation
+{
+	margin-left: 5em;
+}
+
 .square
 {
 	background-color: #fafafa;
@@ -33,4 +38,27 @@ body
 #scale
 {
 	transform: scaleX(2);
+}
+
+#lr-animation
+{
+	animation: lr_move 5s linear infinite;
+}
+
+@keyframes lr_move
+{
+	0%
+	{
+		transform: translateX(0);
+	}
+	
+	50%
+	{
+		transform: translateX(50vw);
+	}
+	
+	100%
+	{
+		transform: translateX(0);
+	}
 }
