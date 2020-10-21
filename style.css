@@ -1,0 +1,36 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	background-color: black;
+	color: #fafafa;
+}
+
+.square
+{
+	background-color: #fafafa;
+	width: 5vw;
+	height: 10vh;
+	padding: 2em;
+	margin: 1em;
+}
+
+#translate
+{
+	transform: translate(200px, 0);
+}
+
+#rotate
+{
+	transform: rotate(45deg);
+}
+
+#scale
+{
+	transform: scaleX(2);
+}
