@@ -62,3 +62,13 @@ body
 		transform: translateX(0);
 	}
 }
+
+#width-transition
+{
+	transition: width 1s ease-out;
+}
+
+#width-transition:hover
+{
+	width: 50vw;
+}
